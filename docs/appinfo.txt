@@ -1,0 +1,16 @@
+Directory Structure:
+
+Main file: src/app.js
+
+All the route handlers: src/routers/
+
+All the Database(MongoDB): src/models/
+
+Database Setup: src/db/mongoose.js
+
+User Authentication: src/authentication/
+
+FrontEnd: templates/views/
+
+Functional Details:
+This app requires a mongodb server url, it can be a local url or a hosted one. You can generate this url and append it in .env;
